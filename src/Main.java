@@ -1,13 +1,14 @@
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-//        System.out.println(rgb(-20, 275, 125));
-        System.out.println(Integer.parseInt("0e", 16));
-//        System.out.println(Integer.toHexString(275));
+//        PaginationHelper<Integer> helper = new PaginationHelper<>(List.of(1, 2, 3, 4), 4);
+        System.out.println(0 % 4);
+//        System.out.println(helper.pageIndex(0));
     }
 
     /**
@@ -73,6 +74,7 @@ public class Main {
 
     /**
      * rgb16进制转换
+     *
      * @param r
      * @param g
      * @param b
